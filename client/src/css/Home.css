@@ -1,0 +1,112 @@
+.mainHome{
+  
+    /* background-color: rgb(68, 68, 237); */
+    color: white;
+    /* background-image: url('/images/bg.png'); */
+    background-image: url('../../public/images/bg.png');
+  height: 477px;
+  position: relative;
+  display: block;
+}
+
+.hideAdd{
+  margin-bottom: 0;
+}
+.showAdd{
+  margin-bottom: 4rem;
+}
+
+
+.intro{
+    color: #fff;
+  font-size: 16px;
+  left: 80px;
+  position: absolute;
+  text-align: left;
+  top: 140px;
+}
+
+.caption1{
+    font-size: 16px;
+}
+.caption2{
+    font-size: 25px;
+  font-weight: bold;
+}
+.bubble{
+    left: 80px;
+  position: absolute;
+  top: 260px;
+}
+.bubble img{
+    height: 186px;
+     width: 685px;
+}
+
+.signupHome{
+    background-color: #2e51a2;
+  color: #000;
+  height: 290px;
+  left: 700px;
+  position: absolute;
+  top: 50px;
+  width: 300px;
+}
+.signupBlock{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.btnHome{
+   padding: 4px 2px 4px 2px;
+   outline: none;
+   border: none;
+   
+   margin-top: 1rem;
+   cursor: pointer;
+   
+}
+.btnHome span{
+    font-size: .8rem;
+    font-weight: 700;
+}
+.btnA{
+background-color: #000;
+color: #e0e0e0;
+}
+.btnA:hover{
+  background-color: #191b28;
+    color: #b6b9bc;
+}
+.btnG{
+    color: #000;
+    background-color: #e0e0e0;
+}
+.btnG:hover{
+  color: #191b28;
+    background-color: #b6b9bc;
+}
+.btnF{
+    background-color: #3b5998;
+  color: #fff;
+}
+.btnF:hover{
+  background-color: #334c81;
+  color: #b5bbbe;
+}
+.btnT{
+    background-color: #1da1f2;
+  color: #fff;
+}
+.btnT:hover{
+  background-color: #1a77b1;
+  color: #a7b6c4;
+}
+.emailHome{
+    
+    text-align: center;
+}
+.emailHome a{
+    color: #fff;
+    font-size: 16px;
+}

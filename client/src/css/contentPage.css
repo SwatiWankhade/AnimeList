@@ -1,0 +1,314 @@
+.conatainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.mainContent{
+    display: flex;
+    
+}
+.mainHead{
+    border-bottom-color: #585858;
+    background-color: #222;
+    border-width: 1px;
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 9px;
+  text-align: left;
+}
+
+.rightSide{
+    
+  border: #353535 1px solid;
+    
+}
+
+/* right  */
+
+.subHeadRight1 h2{
+    height: 20px;
+    background-color: #333;
+  border-bottom: #353535 1px solid;
+  color: #e0e0e0;
+  font-size: 14px;
+  padding: 6px 8px 4px;
+  text-align: left;
+}
+
+.rightConCard{
+    display: flex;
+    /* background-color: #181818; */
+  margin-bottom: 10px;
+}
+.airNameLink a{
+    /* font-size: 1rem; */
+    text-align: left;    
+    border-style: none;
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0;
+    color: #e0e0e0;
+
+}
+
+.infoRight{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    padding:2px 4px;
+    margin-left: 4px;
+    /* margin-bottom: 10px; */
+}
+.rightConCard img{
+    width: 13%;
+    /* height: 10%; */
+    padding: 4px 4px;
+    border: 1px solid #181818;
+}
+
+.infoRight p{
+    /* padding-top: 4px; */
+margin: 0;
+ color: #a3a3a3;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.addBtn{
+    height: 7%;
+    text-align: right;
+    margin-left: 1px;
+    text-align: right;
+    color: #abc4ed;
+  font-size: 10px;
+  background-color: #353535;
+  border: none;
+  cursor: pointer;
+}
+
+.rightConCard span{
+    color: #a3a3a3;
+  display: table-cell;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.0em;
+  vertical-align: top;
+  width: 24px;
+  padding-right: 4px;
+}
+
+
+/* upcooming  */
+.upMain{
+  background-color: #181818;;
+    /* border: 1px solid #ccc; */
+    margin-top:1rem;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.upHead{
+    display: flex;
+    background-color: #333;
+    /* margin: 0; */
+    height: 2rem;
+
+}
+.upHead h2{
+    font-size: 15px;
+    margin: 0;
+    padding: 8px 0 0 4px;
+}
+.upHead a{
+    text-decoration: none;
+    padding-left: 40%;
+    padding-top: 8px;
+    cursor: pointer;
+  font-size: 13px;
+  color: #abc4ed;
+  font-weight: 700;
+}
+
+.infoUp h3:hover a{
+    border-bottom: 1px solid #efefef;
+}
+
+.cards{
+    display: flex;
+    margin: 1.2rem .5rem 0 .5rem;
+}
+.rank{
+    color: #a3a3a3;
+    display: table-cell;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.0em;
+    vertical-align: top;
+    width: 24px;
+    padding-right: 4px;
+}
+.cards img{
+    width: 10%;
+    height: 13%;
+}
+.infoUp{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+    width: 50%;
+}
+.infoUp h3{
+    margin: 0;
+    margin-bottom: 2px;
+}
+.infoUp h3 a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #e0e0e0;
+   
+}
+.infoUp span{
+    font-size: 11px;
+    color: #a3a3a3;
+}
+
+
+
+/* left side  */
+
+.leftSide{
+    width: 75%;
+}
+.leftSideMain{
+    border:#333 1px solid ;
+    display: flex;
+    flex-direction: column;
+}
+
+.headCF{
+    display: flex  ;
+}
+
+.itemsInCF{
+    display: flex   ;
+    /* width: 235px; */
+    margin: 0;
+    justify-content: center;
+}
+
+.itemCF{
+    margin: 4px;
+}
+.itemCF a{
+    text-decoration: none;
+}
+.infoCF:hover {
+    border-bottom: 1px solid #abc4ed;
+}
+.itemCF a img{
+    height: 146px;
+  /* -o-object-fit: cover; */
+  object-fit: cover;
+  width: 235px;
+}
+.infoCF{
+    font-weight: 700;
+  margin-top: 5px;
+  color: #abc4ed;
+  
+  text-align: left;
+  font-size: 12px;
+  width: 235px;
+  
+}
+.viewMoreCF{
+   
+  text-align: right;
+  margin-left: 45%;
+  margin-bottom: 0;
+}
+.viewMoreCF a{
+    text-decoration: none;
+    color: #abc4ed;
+}
+
+
+/* recomendation  */
+/* Add this to your CSS or create a separate CSS file */
+
+.recommendations-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recommendations {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; To create two columns */
+    /* max-width: 1000px; Set a maximum width for the recommendations */
+    /* margin: 0 auto; Center the recommendations horizontally */
+  }
+  
+  .recommendation {
+    /* width: 48%; Set the width of each recommendation to create two columns */
+    /* margin-bottom: 20px; */
+    /* padding: 10px; */
+    border:#333 1px solid ;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 10px;
+  }
+  /* .recImg{
+    height:auto;
+     width:20%;
+     border:1px solid white;
+  } */
+  .leftright{
+    display: flex;
+  }
+  .recleft, .recright{
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .recInfo{
+    margin-left: 1rem;
+  }
+  .recConP  {
+    font-size: 11px;
+  }
+  .title{
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 3px;
+    color: #abc4ed;
+  text-decoration: none;
+
+  }
+  .recBtn{
+    background-color: #333;
+    padding: 2px 4px 2px 4px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #abc4ed;
+    border: none;
+    cursor: pointer;
+  }
+  .desc{
+    color: #e0e0e0;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  .auth{
+    color: #616161;
+    font-size: 13px;
+  }
+  
+  
